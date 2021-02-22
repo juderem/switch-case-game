@@ -1,0 +1,392 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("switchwallpaper.jpg");
+    background-color: #B9B6B4;
+}
+//NEED MEDIA QUERIES
+
+#gameboy {
+position: absolute;
+width: 1066px;
+height: 844px;
+display: flex;
+justify-content: center;
+left: 10%;
+top: 90px;
+background: #52525D;
+border-radius: 132px;
+    .grid-container {
+        display: grid;
+        grid-template-columns: 240px 240px 240px;
+        grid-template-rows: 240px 240px 240px;
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        left: 16%;
+        top: 70px;
+        }
+        #switch1 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+
+        #switch1:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch2 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch2:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch2:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        
+        #switch3 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch3:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch3:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch4 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch4:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch4:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch5 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch5:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch5:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch6 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch6:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch6:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch7 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch7:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch7:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch8 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch8:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch8:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+        #switch9 {
+            border: 3px solid #2f2f2f;
+            z-index: 1;
+            margin: 40px;
+            border-radius: 5%;
+        }
+        #switch9:active {
+            background-color: #2f2f2f;
+        }
+
+        #switch9:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+        }
+    #green-screen {
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        left: 16%;
+        top: 70px;
+        background: #69801D;
+        box-shadow: inset 6px 5px 8px 3px rgba(85, 50, 50, 0.25);
+        border-radius: 12px;
+        z-index: 0;
+    }
+    #start-screen {
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        left: 16%;
+        top: 70px;
+        background: #69801D;
+        box-shadow: inset 6px 5px 8px 3px rgba(85, 50, 50, 0.25);
+        border-radius: 12px;
+        z-index: 3;
+    }
+    #start-title {
+        color: #2f2f2f;
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        top: 70px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 140px;
+        text-align: center;
+    }
+    #play {
+        position: absolute;
+        width: 120px;
+        height: 80px;
+        left: 40%;
+        top: 490px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 40px;
+        font-weight: bolder;
+        background-color: #69801D;
+        color: #2f2f2f;
+        border: 5px solid #2f2f2f;
+    }
+    
+    #play:hover {
+        cursor: pointer;
+        box-shadow: 0px 2px 2px #2f2f2f;
+    }
+
+    #instructions {
+        position: absolute;
+        width: 300px;
+        height: 80px;
+        left: 29%;
+        top: 590px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 40px;
+        font-weight: bolder;
+        background-color: #69801D;
+        color: #2f2f2f;
+        border: 5px solid #2f2f2f;
+        text-align: center;
+    }
+    
+    #instructions:hover {
+        cursor: pointer;
+        box-shadow: 0px 2px 2px #2f2f2f;
+    }
+    
+    #instructions-screen {
+        display: none;
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        left: 16%;
+        top: 70px;
+        background: #69801D;
+        box-shadow: inset 6px 5px 8px 3px rgba(85, 50, 50, 0.25);
+        border-radius: 12px;
+        
+    }
+
+    .winner {
+        display: none;
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        left: 16%;
+        top: 70px;
+        background: #69801D;
+        box-shadow: inset 6px 5px 8px 3px rgba(85, 50, 50, 0.25);
+        border-radius: 12px;
+        // z-index: 3;
+        #winner-message {
+            color: #2f2f2f;
+            position: absolute;
+            width: 720px;
+            height: 720px;
+            top: 70px;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 100px;
+            text-align: center;
+            }
+        #playAgain {
+            position: absolute;
+            width: 180px;
+            height: 80px;
+            left: 40%;
+            top: 490px;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 40px;
+            font-weight: bolder;
+            background-color: #69801D;
+            color: #2f2f2f;
+            border: 5px solid #2f2f2f;
+            }
+    }
+
+    #description {
+        font-family: 'Share Tech Mono', monospace;
+        position: absolute;
+        text-align: center;
+        font-size: 50px;
+        color: #2f2f2f;
+        padding: 10px;
+        top: 5%;
+    }
+
+    #back-to-start {
+        position: absolute;
+        width: 120px;
+        height: 80px;
+        left: 40%;
+        top: 490px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 40px;
+        font-weight: bolder;
+        background-color: #69801D;
+        color: #2f2f2f;
+        border: 5px solid #2f2f2f;
+    }
+
+    #back-to-start:hover {
+        cursor: pointer;
+        box-shadow: 0px 2px 2px #2f2f2f;
+    }
+
+    #light {
+        position: absolute;
+        width: 17px;
+        height: 18px;
+        left: 8%;
+        top: 350px;
+        border-radius: 12px;
+        background: #E42A2B;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    #light:hover {
+        background-color: #ff0000;
+    }
+    #battery {
+        position: absolute;
+        width: 76px;
+        height: 38px;
+        left: 5%;
+        top: 390px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 147.5%;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }
+    #line1 {
+        position: absolute;
+        width: 409px;
+        height: 0px;
+        left: 10%;
+        top: 20px;
+        border: 5.5px solid #682655;
+    }
+    #line2 {
+        position: absolute;
+        width: 409px;
+        height: 0px;
+        left: 10%;
+        top: 36px;
+        border: 5.5px solid #0E0C53;
+    }
+    #matrix {
+        position: absolute;
+        width: 399px;
+        height: 38px;
+        left: 50%;
+        top: 25px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 147.5%;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }
+    #line3 {
+        position: absolute;
+        width: 110px;
+        height: 0px;
+        left: 78.5%;
+        top: 20px;
+        border: 5.5px solid #682655;
+    }
+    #line4 {
+        position: absolute;
+        width: 110px;
+        height: 0px;
+        left: 78.5%;
+        top: 36px;
+        border: 5.5px solid #0E0C53;
+    }
+}
+
+.empty {
+    background-color: #69801D;
+}
+
+.full {
+    background-color: #2f2f2f;
+}
+
+.show {
+    display: block!important;
+    z-index: 3;
+}
+
+// .hidden {
+//     display: none;
+// }

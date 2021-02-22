@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+    <script src="script.js" async defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="gameboy">
+        <div class="grid-container">
+            <div id="switch1" onclick="switched1()"></div>
+            <div id="switch2" onclick="switched2()"></div>
+            <div id="switch3" onclick="switched3()"></div>
+            <div id="switch4" onclick="switched4()"></div>
+            <div id="switch5" onclick="switched5()"></div>
+            <div id="switch6" onclick="switched6()"></div>
+            <div id="switch7" onclick="switched7()"></div>
+            <div id="switch8" onclick="switched8()"></div>
+            <div id="switch9" onclick="switched9()"></div>
+        </div>
+        <div id="start-screen">
+            <h1 id="start-title">SWITCH CASE</h1>
+            <button id="play" onclick="hide('start-screen')">PLAY</button>
+            <button id="instructions" onclick="reveal('instructions-screen')">INSTRUCTIONS</button>
+            <!-- <button id="reset">RESET</button> -->
+        </div>
+
+        <div id="instructions-screen">
+            <p id="description">
+                Switch on all of the blocks! Watch out, turning one on will turn off the one next to it! Click the blocks to change their colour.
+            </p>
+            <button id="back-to-start" onclick="back('start-screen')">BACK</button>
+        </div>
+
+        <div class="winner">
+            <p id="winner-message">CONGLATURAION</p>
+            <button id="playAgain">Play Again?</button>
+        </div>
+        
+        <div id="green-screen"></div>
+        <div id="light"></div>
+        <div id="battery">BATTERY</div>
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="matrix">DOT MATRIX WITH STEREO SOUND</div>
+        <div id="line3"></div>
+        <div id="line4"></div>
+    </div>
+    
+</body>
+</html>
