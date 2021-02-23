@@ -318,16 +318,16 @@ body, html {
   width: 409px;
   height: 0px;
   left: 10%;
-  top: 20px;
-  border: 5.5px solid #682655;
+  top: 29px;
+  border-top: 5.5px solid #682655;
 }
 #gameboy #line2 {
   position: absolute;
   width: 409px;
   height: 0px;
   left: 10%;
-  top: 36px;
-  border: 5.5px solid #0E0C53;
+  top: 42px;
+  border-top: 5.5px solid #0E0C53;
 }
 #gameboy #matrix {
   position: absolute;
@@ -348,16 +348,16 @@ body, html {
   width: 110px;
   height: 0px;
   left: 78.5%;
-  top: 20px;
-  border: 5.5px solid #682655;
+  top: 29px;
+  border-top: 5.5px solid #682655;
 }
 #gameboy #line4 {
   position: absolute;
   width: 110px;
   height: 0px;
   left: 78.5%;
-  top: 36px;
-  border: 5.5px solid #0E0C53;
+  top: 42px;
+  border-top: 5.5px solid #0E0C53;
 }
 
 .empty {
