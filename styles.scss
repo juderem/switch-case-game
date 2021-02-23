@@ -231,7 +231,7 @@ border-radius: 132px;
         background: #69801D;
         box-shadow: inset 6px 5px 8px 3px rgba(85, 50, 50, 0.25);
         border-radius: 12px;
-        
+        z-index: 3;
     }
 
     .winner {
@@ -241,33 +241,40 @@ border-radius: 132px;
         height: 720px;
         left: 16%;
         top: 70px;
-        background: #69801D;
+        background-image: url("fireworks_gameboy_gif.gif");
+        background-repeat: no-repeat;
+        background-size: 720px 720px;
         box-shadow: inset 6px 5px 8px 3px rgba(85, 50, 50, 0.25);
         border-radius: 12px;
-        // z-index: 3;
         #winner-message {
             color: #2f2f2f;
             position: absolute;
             width: 720px;
             height: 720px;
-            top: 70px;
+            top: 200px;
             font-family: 'Share Tech Mono', monospace;
-            font-size: 100px;
+            font-size: 75px;
+            font-weight: bolder;
+            text-shadow: 2px 2px rgb(99, 99, 99);
             text-align: center;
             }
         #playAgain {
             position: absolute;
-            width: 180px;
-            height: 80px;
+            width: 150px;
+            height: 100px;
             left: 40%;
-            top: 490px;
+            top: 400px;
             font-family: 'Share Tech Mono', monospace;
-            font-size: 40px;
+            font-size: 35px;
             font-weight: bolder;
             background-color: #69801D;
             color: #2f2f2f;
             border: 5px solid #2f2f2f;
             }
+        #playAgain:hover {
+            cursor: pointer;
+            box-shadow: 0px 2px 2px #2f2f2f;
+        }    
     }
 
     #description {
